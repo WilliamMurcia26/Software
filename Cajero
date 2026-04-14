@@ -1,0 +1,24 @@
+while True:
+    print("\n--- MENÚ ---")
+    print("1. Consignar")
+    print("2. Retirar")
+    print("3. Ver saldo")
+    print("4. Salir")
+
+    opcion = input("Seleccione una opción (1 al 4): ")
+
+    if opcion == "4":
+        print("Saliendo del programa...")
+        break
+
+    elif opcion == "1":
+        print("Elegiste la opción 1")
+
+    elif opcion == "2":
+        print("Elegiste la opción 2")
+
+    elif opcion == "3":
+        print("Elegiste la opción 3")
+
+    else:
+        print("Opción inválida, intenta de nuevo")
